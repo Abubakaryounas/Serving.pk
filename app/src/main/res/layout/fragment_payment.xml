@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="@dimen/textSize"
+        android:text="How would you like to Pay?"
+        android:textStyle="bold"
+        android:id="@+id/txtView"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:background="#fbf7f5"
+        android:padding="10dp"
+        android:id="@+id/rdGroup"
+        android:layout_below="@+id/txtView">
+        <RadioButton
+            android:id="@+id/CashPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="Cash Payment"
+            android:buttonTint="@color/colorPrimary"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/black"/>
+        <RadioButton
+            android:id="@+id/rdbPython"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="Pay Online"
+            android:buttonTint="@color/colorPrimary"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textSize"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/getBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rdGroup"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/roundbutton"
+        android:gravity="center"
+        android:text="Pay Now"
+        android:padding="10dp"
+        android:textSize="@dimen/textSize" />
+</RelativeLayout>

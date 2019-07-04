@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_profile"
+            android:icon="@drawable/my_profile"
+            android:title="My profile" />
+        <item
+            android:id="@+id/your_jobs"
+            android:icon="@drawable/pin_icon"
+            android:title="Your jobs" />
+        <item
+            android:id="@+id/payment"
+            android:icon="@drawable/payment"
+            android:title="Payment" />
+        <item
+            android:id="@+id/My_wallet"
+            android:icon="@drawable/my_wallet"
+            android:title="My Wallet" />
+        <item
+            android:id="@+id/on_going_job"
+            android:icon="@drawable/on_going_job"
+            android:title="On Going Job"
+            ></item>
+        <item
+            android:id="@+id/Emergency_contact"
+            android:icon="@drawable/emergency_contact"
+            android:title="Emergency Contact"
+            ></item>
+        <item
+            android:id="@+id/invite_friends"
+            android:icon="@drawable/invitation"
+            android:title="Invite Friends"
+            ></item>
+        <item
+            android:id="@+id/Support"
+            android:icon="@drawable/support"
+            android:title="Support"
+            ></item>
+
+
+
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="@string/logout" />
+
+        </menu>
+    </item>
+
+</menu>
